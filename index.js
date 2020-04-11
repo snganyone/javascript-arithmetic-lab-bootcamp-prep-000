@@ -23,6 +23,6 @@ function makeInt(string){
   var x = parseInt(string, 10);
   return x;
 }
-function preserves(n){
+function preserveDecimal(n){
   return parseFloat(n);
 }
